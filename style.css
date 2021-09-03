@@ -1,0 +1,130 @@
+body {
+    border: 10px solid springgreen;
+}
+
+.box {
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    font-size: x-large;
+    font-style: oblique;
+    color: white;
+}
+
+#start {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tab1 {
+    text-align: center;
+    height: 100px;
+    width: 300px;
+}
+
+.tab2 {
+    text-align: center;
+    text-justify: distribute-all-lines;
+    height: 60px;
+    width: 400px;
+}
+
+.tab3 {
+    text-align: center;
+}
+
+.tab4 {
+    border-radius: 30px;
+    font-size: 2.4em;
+    font-weight: 800;
+    text-align: center;
+    height: 60px;
+    width: 500px;
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
+#middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#circle {
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    font-style: oblique;
+    width: 400px;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: underline;
+    border-radius: 50%;
+    text-align: center;
+    background-color: darkturquoise;
+    border: 8px solid gray;
+    position: relative;
+    top: 180px;
+}
+
+#form {
+    width: 400px;
+    color: palevioletred;
+    border: 5px dashed red;
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+    /* margin: 0px 500px 0px 500px;
+    position: relative; left: 200px; */
+}
+
+#block1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#block2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tabHead {
+    font-size: 2.4em;
+    font-weight: 900;
+    color: blue;
+}
+
+.menuTab1 {
+    color: blue;
+    background-color: deepskyblue;
+    border: 3px green solid;
+    border-radius: 30px;
+    height: 280px;
+    width: 330px;
+    text-align: center;
+}
+
+.menuTab2 {
+    color: blue;
+    background-color: deepskyblue;
+    border: 3px green solid;
+    border-radius: 30px;
+    height: 280px;
+    width: 330px;
+    text-align: center;
+}
+
+.menuTab3 {
+    color: blue;
+    background-color: deepskyblue;
+    border: 3px green solid;
+    border-radius: 30px;
+    height: 280px;
+    width: 330px;
+    text-align: center;
+}
